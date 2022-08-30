@@ -1,0 +1,31 @@
+{% extends 'base.html' %} 
+
+{% block head %}
+
+{% endblock %}
+
+{% block body %}
+<header>
+    <nav>
+        <div>
+            <a href="#">
+                <li><img src="{{url_for('static', filename='images/ace.svg')}}" alt="logo"></li>
+            </a>
+        </div>
+        <div class="nav-link">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact us</a></li>
+            <li><a href="#">Blog</a></li>
+        </div>
+    </nav>
+
+</header>
+<main>
+    <div class="one"></div>
+    <div class="two"></div>
+</main>
+<footer></footer>
+
+{% endblock %}
