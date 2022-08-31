@@ -1,12 +1,53 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+{% extends 'base.html' %} 
+
+{% block head %}
+
+{% endblock %}
+
+{% block body %}
+<header>
+    <nav>
+        <div>
+            <a href="#">
+                <img src="/static/images/cl.svg" alt="">
+            </a>
+        </div>
+        <div class="nav-link">
+            <li><a href="#">Home</a></li>
+            <li><a  href="{{url_for('about')}}">About us</a></li>
+            <li><a href="{{url_for('service')}}">Services</a></li>
+            <li><a href="{{url_for('contact')}}">Contact us</a></li>
+            <li><a href="{{url_for('blog')}}">Blog</a></li>
+        </div>
+    </nav>
+        <center><h1>About <span>Us</span></h1></center>
+</header>
+<main>
+         <div class="two">
+            We offer premium Photography services all round the world. 
+            These are services ranging from landscape photography, lifestyle 
+            photography, portrait photography Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Accusantium beatae eum suscipit excepturi obcaecati voluptas laudantium a cumque incidunt molestias, eligendi deleniti ea s
+            unt sed ad enim! Esse, provident beatae? Lorem ipsum dolor sit amet consectetur adipisicing elit. Id est rem officia rerum fugit. Pariatur veniam officiis velit voluptatum nostrum dolores vero tenetur minima, maiores sint quasi iure perspiciatis rerum.
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius soluta neque vel magnam reiciendis, excepturi quod eligendi id expedita modi in corrupti consectetur, quidem itaque rem facilis ducimus totam voluptatum!
+
+         </div>
+
+         
+
+</main>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<footer>
+    <hr>
     
-</body>
-</html>
+</footer>
+
+{% endblock %}

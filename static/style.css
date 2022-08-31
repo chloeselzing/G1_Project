@@ -9,7 +9,8 @@ body{
 h1{
     font-weight: bolder;
     font-size: 50px;
-    margin-left: 190px;
+    
+    justify-content: center;
 }
 h1 span{
     font-size: 50px;
@@ -25,11 +26,12 @@ nav img{
 }
 .two{
     font-style:italic ;
+    text-align: center;
 }
 nav{
     /* position: fixed; */
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
  nav li{
     list-style: none;
